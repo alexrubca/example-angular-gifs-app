@@ -1,5 +1,5 @@
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
   @for (item of listData(); track listData.length) {
-    <gif-list-item url="{{ item }}"/>
+    <gif-list-item url="{{ item.url }}"/>
   }
 </div>
