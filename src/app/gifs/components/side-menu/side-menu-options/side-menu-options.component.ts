@@ -30,5 +30,4 @@ export class SideMenuOptionsComponent {
       route: '/dashboard/search'
     },
   ];
-  searchHistory = this.gifService.searchHistoryKeys;
 }
